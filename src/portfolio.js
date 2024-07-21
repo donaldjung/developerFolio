@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Donald Jung",
+  title: "Hello, I'm Donald Jung.",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm a Computer Science Co-op student from Toronto creating useful things for the web."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/donaldjung",
+  linkedin: "https://www.linkedin.com/in/donald-jung-6565212a3/",
+  //gmail: "xxx@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +48,20 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I can do for you?",
+  subTitle: "Specializing in Data Science, Machine Learning, Artificial Intelligence, Cloud Computing, and Fullstack Web and Mobile Development.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop and optimize algorithms for Data Science and Machine Learning applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Build and deploy scalable, AI-powered systems using the latest Artificial Intelligence techniques"
+    ),
+    emoji(
+      "⚡ Design and manage robust cloud infrastructure solutions on platforms like AWS, Azure, and Google Cloud"
+    ),
+    emoji(
+      "⚡ Develop full-stack web and mobile applications, ensuring responsive and dynamic user experiences"
     )
   ],
 
@@ -64,6 +69,19 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    //<FontAwesomeIcon icon="fa-brands fa-java" />
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -73,24 +91,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -105,12 +111,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "google cloud",
+      fontAwesomeClassname: "fab fa-google"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "microsoft azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
       skillName: "docker",
@@ -126,23 +132,67 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Toronto Metropolitan University - Toronto",
+      logo: require("./assets/images/TMU.png"),
+      subHeader: "Bachelor of Science in Computer Science Co-op",
+      duration: "September 2023 - Present",
+      desc: "Current Cumulative GPA: 4.0 (Dean's List)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Recipient of the Michel Julien Award (2023)",
+        "Completed courses in Python, Java, Software Engineering, Calculus, Discrete Math, Physics, Economics, ...",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Meta",
+      logo: require("./assets/images/facebookLogo.png"),
+      subHeader: "Meta Developer Certifications",
+      duration: "2023 - 2024",
+      desc: "Certifications in Full-Stack Web Development",
+      descBullets: [
+        "Programming with Javascript",
+        "Introduction to Front-End and Back-End Development",
+        "React Basics and advanced concepts",
+        "HTML and CSS in depth",
+      ]
+    },
+    {
+      schoolName: "IBM",
+      logo: require("./assets/images/ibm.png"),
+      subHeader: "IBM Certifications and Courses",
+      duration: "2023 - 2024",
+      desc: "Certifications in Cloud Computing",
+      descBullets: [
+        "Cloud Computing Fundamentals",
+        "IBM Z Xplore: Introduction to Mainframe",
+        "React Basics and advanced concepts",
+        "HTML and CSS in depth",
+      ]
+    },
+    {
+      schoolName: "Google",
+      logo: require("./assets/images/google.png"),
+      subHeader: "Google Certifications and Courses",
+      duration: "2023 - 2024",
+      desc: "Certifications in Full-Stack Web Development",
+      descBullets: [
+        "Introduction to Generative AI",
+      ]
+    },
+    {
+      schoolName: "Toronto Metropolitan University -  Toronto",
+      logo: require("./assets/images/TMU.png"),
+      subHeader: "Bachelor of Applied Science in Food and Nutrition",
+      duration: "September 2020 - April 2021",
+      desc: "Cumulative GPA: 4.0 (Dean's List)",
+      descBullets: ["Accredited Undergraduate Dietetic Internship Program"]
+    },
+    {
+      schoolName: "Wilfrid Laurier University - Waterloo",
+      logo: require("./assets/images/laurier.jpg"),
+      subHeader: "Bachelor of Science in Computer Science Co-op",
+      duration: "September 2013 - April 2014",
+      desc: "Took courses about Software Engineering, Python, Linear Algebra, Calculus, Physics, ...",
+      descBullets: ["Awarded Entrance Scholarship & Bursary"]
     }
   ]
 };
@@ -324,7 +374,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +393,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +406,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -380,7 +430,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
