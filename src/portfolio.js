@@ -188,7 +188,7 @@ const educationInfo = {
     },
     {
       schoolName: "Wilfrid Laurier University - Waterloo",
-      logo: require("./assets/images/laurier.jpg"),
+      logo: require("./assets/images/laurier.png"),
       subHeader: "Bachelor of Science in Computer Science Co-op",
       duration: "September 2013 - April 2014",
       desc: "Took courses about Software Engineering, Python, Linear Algebra, Calculus, Physics, ...",
