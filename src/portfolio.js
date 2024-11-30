@@ -26,8 +26,8 @@ const greeting = {
     "I'm a Computer Science Co-op student from Toronto creating useful things in technology."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: false // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1YG4r5jDHzt7fkaaAJOZ4hbJNhEJFhFr6/view?usp=sharing", // Set to empty to hide the button
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
