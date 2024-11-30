@@ -48,7 +48,7 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          {educationInfo && (
+          {viewEducation && (
             <li>
               <a href="#education">Education</a>
             </li>
