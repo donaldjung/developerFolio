@@ -225,10 +225,10 @@ const workExperiences = {
   experience: [
     {
       role: "Owner",
-      company: "Wholesale to Retail - Consumer Tech",
+      company: "Wholesale to Retail Sales",
       companylogo: require("./assets/images/tech_store.png"),
       date: "June 2018 – Present",
-      desc: "Wholesale procurement of consumer tech goods, sold to the retail market at a very steep discount.",
+      desc: "Wholesale procurement of consumer tech goods, sold to the retail market at a very attractive discount.",
       descBullets: [
         "In partnership with Best-Buy",
         "Brands included Apple, Dyson, Bowflex, Sony, LG and more."
@@ -239,14 +239,22 @@ const workExperiences = {
       company: "Freelance",
       companylogo: require("./assets/images/fitness.png"),
       date: "Sept 2015 – June 2018",
-      desc: "Created custom training and nutrition plans for clients in the GTA area to optimize fitness and health goals."
+      desc: "Created custom training and nutrition plans for clients in the GTA area to optimize fitness and health goals.",
+      descBullets: [
+        "Macronutrient based nutrition plans",
+        "Progressive overload based training plans"
+      ]
     },
     {
       role: "Tech - Specialist",
       company: "Staples Canada",
       companylogo: require("./assets/images/staples_logo.png"),
       date: "Sept 2013 – June 2014",
-      desc: "Created and implemented custom customer solutions to solve problems in the technology sector of Staples Canada."
+      desc: "Created and implemented custom customer solutions to solve problems in the technology sector of Staples Canada.",
+      descBullets: [
+        "Computer security: Virus and Malware removal",
+        "Installing and managing software for new computers"
+      ]
     }
   ]
 };
