@@ -48,7 +48,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I am interested in doing",
+  title: "What I Am Working On",
   subTitle: "Specializing in Data Science, Machine Learning, Artificial Intelligence, Cloud Computing, and Fullstack Web and Mobile Development.",
   skills: [
     emoji(
