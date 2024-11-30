@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1500 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -23,11 +23,11 @@ const greeting = {
   username: "Donald Jung",
   title: "Hello, I'm Donald Jung.",
   subTitle: emoji(
-    "I'm a Computer Science Co-op student from Toronto creating useful things for the web."
+    "I'm a Computer Science Co-op student from Toronto creating useful things in technology."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: false // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/donaldjung",
   linkedin: "https://www.linkedin.com/in/donald-jung-6565212a3/",
-  //gmail: "xxx@gmail.com",
+  email: "donald.jung@torontomu.ca",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",
@@ -48,7 +48,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I can do for you?",
+  title: "What I am interested in doing",
   subTitle: "Specializing in Data Science, Machine Learning, Artificial Intelligence, Cloud Computing, and Fullstack Web and Mobile Development.",
   skills: [
     emoji(
@@ -224,29 +224,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      role: "Owner",
+      company: "Wholesale to Retail - Consumer Tech",
+      companylogo: require("./assets/images/tech_store.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Wholesale procurement of consumer tech goods, sold to the retail market at a very steep discount.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "In partnership with Best-Buy",
+        "Brands included Apple, Dyson, Bowflex, Sony, LG and more."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Personal Trainer",
+      company: "Freelance",
+      companylogo: require("./assets/images/fitness.png"),
+      date: "Sept 2015 – June 2018",
+      desc: "Created custom training and nutrition plans for clients in the GTA area to optimize fitness and health goals."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Tech - Specialist",
+      company: "Staples Canada",
+      companylogo: require("./assets/images/staples_logo.png"),
+      date: "Sept 2013 – June 2014",
+      desc: "Created and implemented custom customer solutions to solve problems in the technology sector of Staples Canada."
     }
   ]
 };
@@ -289,7 +289,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -350,7 +350,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -421,14 +421,14 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Want to discuss an opportunity or just want to say hi? My Inbox is open for all.",
   email_address: "donald.jung@torontomu.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "donaldjung0", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 
