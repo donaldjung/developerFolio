@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/donaldjung",
-  linkedin: "https://www.linkedin.com/in/donald-jung-6565212a3/",
+  linkedin: "https://www.linkedin.com/in/donald-jung/",
   email: "donald.jung@torontomu.ca",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
