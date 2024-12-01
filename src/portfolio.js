@@ -143,14 +143,11 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Google",
-      logo: require("./assets/images/google.png"),
-      subHeader: "Google Certifications and Courses",
-      duration: "2023 - 2024",
-      desc: "Certifications in Full-Stack Web Development",
-      descBullets: [
-        "Introduction to Generative AI",
-      ]
+      schoolName: "University of Toronto - Toronto",
+      logo: require("./assets/images/laurier.png"),
+      subHeader: "Python Programming",
+      duration: "September 2021 - December 2021",
+      desc: "Took courses in Python and Computer Science"
     },
     {
       schoolName: "Toronto Metropolitan University -  Toronto",
@@ -306,11 +303,11 @@ const achievementSection = {
       image: require("./assets/images/ibm.png")
       footerLink: [
         {
-          name: "Artificial Intelligence Fundamentals",
+          name: "Artificial Intelligence Certification",
           url: "https://www.credly.com/badges/fbd18fd0-a349-4e58-8b59-452a278b9e5e/linked_in_profile"
         },
         {
-          name: "Cloud Computing Fundamentals",
+          name: "Cloud Computing Certification",
           url: "https://www.credly.com/badges/9ecef730-9fed-4c05-99e4-f42fa425d741/linked_in_profile"
         },
         {
@@ -358,6 +355,22 @@ const achievementSection = {
           url: "https://www.coursera.org/account/accomplishments/verify/D558Y68V55SM"
         }
         
+      ]
+    },
+      {
+      title: "Google Certifications",
+      subtitle:
+        "Completed Cloud and Artificial Intelligence Certifications",
+      image: require("./assets/images/google.png"),
+      footerLink: [
+        {
+          name: "Large Language Models Certification",
+          url: "https://dmz.torontomu.ca/"
+        },
+        {
+          name: "Gernerative AI Certification",
+          url: "https://www.dmzlaunchpad.ca/certificates/cssogkjcvh"
+        }
       ]
     }
   ],
