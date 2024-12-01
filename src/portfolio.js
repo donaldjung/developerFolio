@@ -352,12 +352,17 @@ const achievementSection = {
         },
         {
           name: "Back End Development",
-          url: "https://www.coursera.org/account/accomplishments/verify/QQ9YXFFZPUFV"
+          url: "https://www.coursera.org/account/accomplishments/verify/H6HYR2XY2CMY"
         },
         {
           name: "Front End Development",
-          url: "Introduction to Front-End Development"
+          url: "https://www.coursera.org/account/accomplishments/verify/M8FPQJB6B4DQ"
+        },
+         {
+          name: "Version Control",
+          url: "https://www.coursera.org/account/accomplishments/verify/D558Y68V55SM"
         }
+        
       ]
     }
   ],
