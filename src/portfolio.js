@@ -143,19 +143,6 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Meta",
-      logo: require("./assets/images/facebookLogo.png"),
-      subHeader: "Meta Developer Certifications",
-      duration: "2023 - 2024",
-      desc: "Certifications in Full-Stack Web Development",
-      descBullets: [
-        "Programming with Javascript",
-        "Introduction to Front-End and Back-End Development",
-        "React Basics and advanced concepts",
-        "HTML and CSS in depth",
-      ]
-    },
-    {
       schoolName: "Google",
       logo: require("./assets/images/google.png"),
       subHeader: "Google Certifications and Courses",
@@ -299,12 +286,16 @@ const achievementSection = {
     {
       title: "Start-Up Certified",
       subtitle:
-        "DMZ Startup incubator certification",
+        "Completed DMZ Startup Program for Student Entrepreneurs",
       image: require("./assets/images/dmz.png"),
       footerLink: [
         {
           name: "DMZ @ TMU",
           url: "https://dmz.torontomu.ca/"
+        },
+        {
+          name: "Dejardin Launchpad Certification",
+          url: "https://www.dmzlaunchpad.ca/certificates/cssogkjcvh"
         }
       ]
     },
@@ -340,7 +331,7 @@ const achievementSection = {
     {
       title: "Meta Certifications",
       subtitle: "Meta Front End Software Development Certifications",
-      image: require("./assets/images/meta.jpg"),
+      image: require("./assets/images/facebookLogo.png"),
       footerLink: [
         {
           name: "HTML and CSS in Depth",
