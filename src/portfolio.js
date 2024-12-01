@@ -322,15 +322,14 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "IBM Z Xplore Advanced Badge",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Issued during IBM SkillsFest in summer 2023, for completion of activities involving IBM Z mainframes",
+      image: require("./assets/images/ibm.jpg")
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "IBM Advanced Badge",
+          url: "https://www.credly.com/badges/d6be9e20-bf2a-42e2-886c-35bcae07f222/public_url"
         }
       ]
     },
