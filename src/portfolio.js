@@ -328,7 +328,11 @@ const achievementSection = {
         },
         {
           name: "IBM Z Concepts",
-          url: "https://www.credly.com/badges/d6be9e20-bf2a-42e2-886c-35bcae07f222/public_url"
+          url: "https://www.credly.com/badges/c0955a9b-a21c-4d34-be3d-5bc21e999fd5/linked_in_profile"
+        },
+        {
+          name: "IBM Zowe Fundamentals",
+          url: "https://www.credly.com/badges/ddc79480-414a-414c-bf4f-b68c01111722/linked_in_profile"
         }
       ]
     },
