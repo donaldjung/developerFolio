@@ -143,13 +143,6 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "University of Toronto - Toronto",
-      logo: require("./assets/images/laurier.png"),
-      subHeader: "Python Programming",
-      duration: "September 2021 - December 2021",
-      desc: "Took courses in Python and Computer Science"
-    },
-    {
       schoolName: "Toronto Metropolitan University -  Toronto",
       logo: require("./assets/images/TMU.png"),
       subHeader: "Bachelor of Applied Science in Food and Nutrition",
