@@ -282,8 +282,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Start-Up Certified",
-      subtitle:
-        "Completed DMZ Startup Program for Student Entrepreneurs",
+      subtitle: "Completed DMZ Startup Program for Student Entrepreneurs",
       image: require("./assets/images/dmz.png"),
       footerLink: [
         {
@@ -298,9 +297,8 @@ const achievementSection = {
     },
     {
       title: "IBM Certifications and Badges",
-      subtitle:
-        "Aquired through IBM SkillsBuild and IBM SkillsFest",
-      image: require("./assets/images/ibm.png")
+      subtitle:"Aquired through IBM SkillsBuild and IBM SkillsFest",
+      image: require("./assets/images/ibm.png"),
       footerLink: [
         {
           name: "Artificial Intelligence Certification",
@@ -359,8 +357,7 @@ const achievementSection = {
     },
       {
       title: "Google Certifications",
-      subtitle:
-        "Completed Cloud and Artificial Intelligence Certifications",
+      subtitle: "Completed Cloud and Artificial Intelligence Certifications",
       image: require("./assets/images/google.png"),
       footerLink: [
         {
