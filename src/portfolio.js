@@ -1,4 +1,4 @@
-/* Change this file to get your personal Portfolio */
+i/* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -151,19 +151,6 @@ const educationInfo = {
       descBullets: [
         "Programming with Javascript",
         "Introduction to Front-End and Back-End Development",
-        "React Basics and advanced concepts",
-        "HTML and CSS in depth",
-      ]
-    },
-    {
-      schoolName: "IBM",
-      logo: require("./assets/images/ibm.png"),
-      subHeader: "IBM Certifications and Courses",
-      duration: "2023 - 2024",
-      desc: "Certifications in Cloud Computing",
-      descBullets: [
-        "Cloud Computing Fundamentals",
-        "IBM Z Xplore: Introduction to Mainframe",
         "React Basics and advanced concepts",
         "HTML and CSS in depth",
       ]
@@ -322,28 +309,54 @@ const achievementSection = {
       ]
     },
     {
-      title: "IBM Z Xplore Advanced Badge",
+      title: "IBM Certifications and Badges",
       subtitle:
-        "Issued during IBM SkillsFest in summer 2023, for completion of activities involving IBM Z mainframes",
-      image: require("./assets/images/ibm.jpg")
+        "Aquired through IBM SkillsBuild and IBM SkillsFest",
+      image: require("./assets/images/ibm.png")
       footerLink: [
         {
-          name: "IBM Advanced Badge",
+          name: "Artificial Intelligence Fundamentals",
+          url: "https://www.credly.com/badges/fbd18fd0-a349-4e58-8b59-452a278b9e5e/linked_in_profile"
+        },
+        {
+          name: "Cloud Computing Fundamentals",
+          url: "https://www.credly.com/badges/9ecef730-9fed-4c05-99e4-f42fa425d741/linked_in_profile"
+        },
+        {
+          name: "IBM Z Advanced Badge",
+          url: "https://www.credly.com/badges/d6be9e20-bf2a-42e2-886c-35bcae07f222/public_url"
+        },
+        {
+          name: "IBM Z Concepts",
           url: "https://www.credly.com/badges/d6be9e20-bf2a-42e2-886c-35bcae07f222/public_url"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Meta Certifications",
+      subtitle: "Meta Front End Software Development Certifications",
+      image: require("./assets/images/meta.jpg"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "HTML and CSS in Depth",
+          url: "https://www.coursera.org/account/accomplishments/verify/6RAKYWTYA34C"
+        },
+        {
+          name: "React Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/QQ9YXFFZPUFV"
+        },
+        {
+          name: "Programming with Javascript",
+          url: "https://www.coursera.org/account/accomplishments/verify/53H4ZQUANL8J"
+        },
+        {
+          name: "Back End Development",
+          url: "https://www.coursera.org/account/accomplishments/verify/QQ9YXFFZPUFV"
+        },
+        {
+          name: "Front End Development",
+          url: "Introduction to Front-End Development"
         }
       ]
     }
