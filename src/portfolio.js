@@ -191,7 +191,7 @@ const workExperiences = {
       role: "Owner",
       company: "Wholesale to Retail Sales",
       companylogo: require("./assets/images/tech_store.png"),
-      date: "June 2018 – Present",
+      date: "2020 – 2023",
       desc: "Wholesale procurement of consumer tech goods, sold to the retail market at a very attractive discount.",
       descBullets: [
         "In partnership with Best-Buy",
@@ -202,7 +202,7 @@ const workExperiences = {
       role: "Personal Trainer",
       company: "Freelance",
       companylogo: require("./assets/images/fitness.png"),
-      date: "Sept 2015 – June 2018",
+      date: "2015 - 2020",
       desc: "Created custom training and nutrition plans for clients in the GTA area to optimize fitness and health goals.",
       descBullets: [
         "Macronutrient based nutrition plans",
@@ -213,7 +213,7 @@ const workExperiences = {
       role: "Tech - Specialist",
       company: "Staples Canada",
       companylogo: require("./assets/images/staples_logo.png"),
-      date: "Sept 2013 – June 2014",
+      date: "2013 – 2014",
       desc: "Created and implemented custom customer solutions to solve problems in the technology sector of Staples Canada.",
       descBullets: [
         "Computer security: Virus and Malware removal",
